@@ -1,12 +1,13 @@
 {
   "name": "freezeframe.js",
-  "version": "3.0.8",
+  "version": "3.0.9",
   "description": "freezeframe.js is a script that automatically pauses animated .gifs and enables them to start animation on mouse hover or click",
   "main": "/build/freezeframe.js",
   "directories": {
     "test": "tests"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-clean": "^0.3.1",
     "gulp-sass": "^2.0.4",
@@ -15,7 +16,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.4.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
